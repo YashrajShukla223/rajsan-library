@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Facilities from "./pages/Facilities";
 import Stats from "./pages/Stats";
 import Location from "./pages/Location";
+import RajSanGallery from "./pages/RajSanGallery";
 
 export default function App() {
   return (
@@ -26,6 +27,7 @@ export default function App() {
               <Route path="/facilities" element={<Facilities />} />
               <Route path="/stats" element={<Stats />} />
               <Route path="/location" element={<Location />} />
+              <Route path="/gallary" element={<RajSanGallery />} />
             </Routes>
           </div>
           <Footer />

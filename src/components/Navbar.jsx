@@ -9,6 +9,7 @@ export default function Navbar() {
 
       <div className="flex gap-4 items-center">
         <Link to="/" className="hover:text-blue-700 text-slate-900">Home</Link>
+        <Link to="/gallary" className="hover:text-blue-700 text-slate-900">RajSan Gallary</Link>
         <Link to="/facilities" className="hover:text-blue-700 text-slate-900">Facilities</Link>
         <Link to="/stats" className="hover:text-blue-700 text-slate-900">Stats</Link>
         <Link to="/location" className="hover:text-blue-700 text-slate-900">Location</Link>

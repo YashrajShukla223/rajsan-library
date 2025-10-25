@@ -8,6 +8,7 @@ const navLinks = [
   { to: "/facilities", label: "Facilities", icon: BookOpen },
   { to: "/stats", label: "Stats", icon: BarChart3 },
   { to: "/location", label: "Location", icon: MapPin },
+  { to: "/gallary", label: "RajSan Gallery", icon: BookOpen },
 ];
 
 export default function Sidebar() {
